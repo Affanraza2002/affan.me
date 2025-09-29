@@ -75,7 +75,7 @@ A stunning, modern portfolio website built with cutting-edge technologies and be
 - Portfolio: [https://meaffan.vercel.app/](https://meaffan.vercel.app/)
 - GitHub: [@Affanraza2002](https://github.com/Affanraza2002)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/affanraza202/)
-- Email: mramazan1@yahoo.com
+- Email: razaaffan08@gmail.com
 
 
 **Made with ❤️ and cutting-edge web technologies**
