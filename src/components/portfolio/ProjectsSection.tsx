@@ -7,73 +7,37 @@ import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
-    title: "Checkersvip.com",
-    subtitle: "Professional Online Checkers Platform",
-    description: "A comprehensive multiplayer American checkers platform designed for competitive play with real-time communication capabilities. Currently undergoing official recognition process with the American Checkers Federation (ACF).",
+    title: "Affan-me.dev",
+    subtitle: "Personal Portfolio Website",
+    description: "A personal portfolio website showcasing my projects, skills, and experience.",
     features: [
-      "Real-time multiplayer gameplay with WebSocket technology",
-      "Advanced drag-and-drop game mechanics using DnDKit",
-      "Live chat system with emoji support and moderation",
-      "Player ranking and tournament management system",
-      "Spectator mode with real-time game observation",
-      "Mobile-responsive design for cross-platform play",
-      "Game replay and analysis tools",
-      "Social features including friend lists and challenges"
+      "Responsive design for all devices",
+      "Smooth animations and clean UI",
+      "Project showcase with live links",
+      "Blog/updates section",
+      "Contact form with email integration",
+      "SEO-friendly structure",
+      "Social media links and GitHub/LinkedIn integration for professional branding"
     ],
     deliverables: [
-      "Fully functional web application deployed on production",
-      "Real-time multiplayer game engine",
-      "User authentication and profile management",
-      "Admin dashboard for game moderation",
-      "Tournament management system",
-      "Mobile-optimized responsive interface",
-      "Integration with payment systems for premium features"
+      "Production-ready portfolio deployed online",
+      "Central hub for projects, skills, and certifications",
+      "Filterable and dynamic project listings",
+      "Easy content updates",
+      "Optional private project demos",
+      "Integrated analytics for tracking"
     ],
-    tech: ["Next.js", "NextUI", "Tailwind CSS", "DnDKit", "Fastify", "Redis", "Socket.io", "PostgreSQL", "Prisma", "JWT Authentication", "Stripe API"],
+    tech: ["Next.js", "NextUI", "Tailwind CSS","TypeScript","JWT Authentication", "Framer Motion", "Vercel","Iconifyt"],
     github: "https://github.com",
-    live: "https://checkersvip.com",
+    live: "https://affan-me.vercel.app/",
     gradient: "from-blue-500 to-cyan-500",
     status: "Live",
-    category: "Web Application",
+    category: "Web Development",
     highlight: "Featured",
-    timeline: "6 months",
-    clientType: "Gaming Industry"
+    timeline: "1 month",
+    clientType: "Personal Project"
   },
-  {
-    title: "AskRudy.ai",
-    subtitle: "AI-Powered Document Intelligence Platform",
-    description: "An advanced RAG-based AI chatbot that revolutionizes document interaction through multilingual translation and intelligent conversation capabilities. Features cutting-edge OpenAI multimodal technology for screenshot analysis and real-time text translation.",
-    features: [
-      "RAG (Retrieval-Augmented Generation) architecture for accurate responses",
-      "Multi-format document support (PDF, DOCX, TXT, images)",
-      "OpenAI GPT-4 Vision integration for screenshot analysis",
-      "Real-time multilingual translation (50+ languages)",
-      "Intelligent document chunking and vector embeddings",
-      "Conversational AI with context-aware responses",
-      "Document highlighting and annotation tools",
-      "Export capabilities for translations and summaries",
-      "Collaborative workspace for team document analysis"
-    ],
-    deliverables: [
-      "Production-ready AI chatbot platform",
-      "Document processing pipeline with OCR capabilities",
-      "Multi-language translation engine",
-      "User dashboard with document management",
-      "Subscription management with Stripe integration",
-      "API documentation and integration guides",
-      "Mobile-responsive Progressive Web App",
-      "Analytics dashboard for usage tracking"
-    ],
-    tech: ["Next.js", "NextUI", "Vercel AI SDK", "React-PDF", "Firebase", "LangChain", "OpenAI GPT-4", "Pinecone", "Stripe", "Tesseract.js", "PDF.js", "Zustand"],
-    github: "https://github.com",
-    live: "https://askrudy.ai",
-    gradient: "from-purple-500 to-pink-500",
-    status: "Live",
-    category: "AI Platform",
-    highlight: "Featured",
-    timeline: "8 months",
-    clientType: "EdTech & Enterprise"
-  }
+  
 ];
 
 export default function ProjectsSection() {
@@ -380,18 +344,32 @@ export default function ProjectsSection() {
 
         <motion.div
           variants={itemVariants}
-          className="text-center mt-12 md:mt-16 lg:mt-20 px-4 mb-12"
+          className=" text-center mt-12 md:mt-16 lg:mt-20 px-4 mb-12"
         >
           <Link
             href="#contact"
           >
 
             <motion.div
-              className="inline-flex items-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-500/20 dark:border-purple-500/20 rounded-xl md:rounded-2xl"
+              className="inline-flex items-center  gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-500/20 dark:border-purple-500/20 rounded-xl md:rounded-2xl"
+              whileHover={{ scale: 1.05 }}
+            >
+              <Icon icon="solar:code-bold" className="text-green-500 dark:text-purple-400 w-5 h-5 md:w-6 md:h-6" />
+              <span className="text-gray-900 dark:text-gray-300 font-bold text-lg md:text-base text-center">
+                More projects coming soon! Stay tuned for updates.
+              </span>
+            </motion.div>
+          </Link>
+          <Link
+            href="#contact"
+          >
+
+            <motion.div
+              className="inline-flex items-center mt-20 gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-500/20 dark:border-purple-500/20 rounded-xl md:rounded-2xl"
               whileHover={{ scale: 1.05 }}
             >
               <Icon icon="solar:programming-bold" className="text-blue-500 dark:text-purple-400 w-5 h-5 md:w-6 md:h-6" />
-              <span className="text-gray-700 dark:text-gray-300 font-medium text-sm md:text-base text-center">
+              <span className="text-gray-700 dark:text-gray-300 font-large text-sm md:text-base text-center">
                 Interested in working together? Let&apos;s create something amazing!
               </span>
             </motion.div>

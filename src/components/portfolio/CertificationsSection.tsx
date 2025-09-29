@@ -24,191 +24,64 @@ type Certificate = {
 
 const certifications: Certificate[] = [
   {
-    title: "DevOps Essentials",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "November 2023",
-    credentialId: "P67DLWJP2GL7",
-    skills: ["Continuous Integration", "DevOps", "Product Development", "IaaC"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "FULL STACK DEVELOPMENT CAREER PROGRAM (CHATGPT INCLUDED)",
+    provider: "LeapLabs",
+    platform: "Testbook(Skill Academy)",
+    issued: "July 2024",
+    credentialId: "FSDCP2892",
+    skills: ["Full Stack Development", "MERN Stack", "ChatGPT","Use of AI tools","AI Integration"],
+    providerIcon: "solar:cup-star-bold",
+    platformIcon: "",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/P67DLWJP2GL7_DEVOPS.png",
-    providerIconSize: 64,
+    certificatePreview: "/certificates/FSDCP2892.jpeg",
+    providerIconSize: 55,
     platformIconSize: 88
   },
   {
-    title: "Git and GitHub Essentials",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "YYQL3U4QAZJF",
-    skills: ["Version Control", "Git", "GitHub", "GitLab", "Open Source"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "React.js Essentials Bootcamp ",
+    provider: "GDG MAD, ITM Edutech ",
+    platform: "Lets Upgrade",
+    issued: "March 2023",
+    credentialId: "LUERJSFEB123208",
+    skills: ["Core React Fundamentals","API integration","React.js", "UI & Styling","Redux", "Open Source"],
+    providerIcon: "solar:cup-star-bold",
+    platformIcon: "",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/ YYQL3U4QAZJF_GIT_GITHUB.png",
-    providerIconSize: 64,
+    certificatePreview: "/certificates/LUERJSFEB123208.jpg",
+    providerIconSize: 55,
     platformIconSize: 88
   },
   {
-    title: "Web Development with HTML, CSS, JavaScript Essentials",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "3UPD6SABRD3B",
-    skills: ["IBM Cloud", "HTML", "CSS", "Full-Stack Development"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+    title: "Responsive Web Design",
+    provider: "Free Code Camp",
+    platform: "Free Code Camp",
+    issued: "June 2023",
+    credentialId: "Affanraza_0212",
+    skills: ["JavaScript", "HTML5", "CSS3", "Responsive Web Design","Grid and Flexbox"],
+    providerIcon: "solar:cup-star-bold",
+    platformIcon: "",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/3UPD6SABRD3B_INTRO_WEB.png",
-    providerIconSize: 64,
+    certificatePreview: "/certificates/Affanraza_0212.png",
+    providerIconSize: 55,
     platformIconSize: 88
   },
-  {
-    title: "Introduction to Cloud Computing",
-    provider: "IBM",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "verified-credly",
-    skills: ["Container", "IaaS", "IBM Cloud", "Architecture", "Cloud Computing", "PaaS", "DevOps"],
-    providerIcon: "lineicons:ibm",
-    platformIcon: "logos:coursera",
+ {
+    title: "C++ Course :Learn the Essentials",
+    provider: "Scaler Academy",
+    platform: "Scaler Academy",
+    issued: "Oct 2023",
+    credentialId: "Affanraza_0212",
+    skills: ["C++","Data Structures","Algorithms","OOPs Concepts"],
+    providerIcon: "solar:cup-star-bold",
+    platformIcon: "",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/EXFQ7QMJYUQQ_AWS.png",
-    providerIconSize: 64,
+    certificatePreview: "/certificates/Cplusplus.png",
+    providerIconSize: 55,
     platformIconSize: 88
   },
 
-  {
-    title: "Introduction to Databases for Back-End Development",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "5FNQEGLH78UD",
-    skills: ["Database Design", "SQL", "Backend Development", "Data Management"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/5FNQEGLH78UD_DATABASES_FOR_BACKEND.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-
-  {
-    title: "Introduction to Back-End Development",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "2Y8NRQC5MP96",
-    skills: ["Backend Development", "APIs", "Server-Side Programming", "Web Development"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/2Y8NRQC5MP96_INTRO_BE.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Django Web Framework",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "3YRA842UKERB",
-    skills: ["Django", "Python", "Web Framework", "MVC Architecture"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/3YRA842UKERB_DJANGO.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Programming in Python",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "2AUUVS958L5Y",
-    skills: ["Python", "Programming", "Data Structures", "Algorithms"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/2AUUVS958L5Y_PYTHON.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-
-  {
-    title: "Version Control",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "BLGJKHN6UTSF",
-    skills: ["Git", "Version Control", "Collaboration", "Software Development"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/BLGJKHN6UTSF_version_control.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Introduction to Databases",
-    provider: "Meta",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "N9LJFAWZXTMA",
-    skills: ["Database Fundamentals", "SQL", "Data Management", "Database Design"],
-    providerIcon: "logos:meta-icon",
-    platformIcon: "logos:coursera",
-    color: "from-blue-500 to-purple-600",
-    certificatePreview: "/certificates/N9LJFAWZXTMA_DATABASES.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "AWS Cloud Technical Essentials",
-    provider: "Amazon Web Services",
-    platform: "Coursera",
-    issued: "February 2023",
-    credentialId: "EXFQ7QMJYUQQ",
-    skills: ["AWS", "Cloud Computing", "EC2", "S3", "IAM", "VPC"],
-    // providerIcon: "logos:aws",
-    providerIcon: "skill-icons:aws-dark",
-    platformIcon: "logos:coursera",
-    color: "from-orange-500 to-red-600 text-black dark:text",
-    certificatePreview: "/certificates/EXFQ7QMJYUQQ_AWS.png",
-    providerIconSize: 44,
-    platformIconSize: 88
-  },
-  {
-    title: "Foundations: Data, Data, Everywhere",
-    provider: "Google",
-    platform: "Coursera",
-    issued: "November 2022",
-    credentialId: "6RUAYHXFV5XZ",
-    skills: ["Data Analysis", "Data Management", "Statistical Analysis"],
-    providerIcon: "logos:google",
-    platformIcon: "logos:coursera",
-    color: "from-indigo-500 to-purple-600",
-    certificatePreview: "/certificates/6RUAYHXFV5XZ_Foundations_data.png",
-    providerIconSize: 64,
-    platformIconSize: 88
-  },
-  {
-    title: "Databases with SQL",
-    provider: "CS50",
-    platform: "HarvardX",
-    issued: "May 2025",
-    credentialId: "d7be6646-4c57-431e-88a9-ad7b882864e3",
-    skills: ["SQL", "Database", "Data Management", "Data Analysis"],
-    providerIcon: "fa-solid:university",
-    platformIcon: "simple-icons:edx",
-    color: "from-indigo-500 to-purple-600",
-    certificatePreview: "/certificates/CS50_SQL.png",
-    providerIconSize: 44,
-    platformIconSize: 44
-  }
+ 
+  
 ];
 
 export default function CertificationsSection() {
@@ -315,8 +188,8 @@ export default function CertificationsSection() {
                   {/* Header with gradient - keeping this as requested */}
                   <div className={`h-20 flex items-center justify-between bg-slate-100 dark:bg-slate-900 px-4 ${cert.color} relative overflow-hidden`}>
                     <div className="flex items-center justify-end mr-4 gap-1">
-                      <Icon icon={cert.providerIcon} className="" width={cert.providerIconSize} height={cert.providerIconSize} />
-                      <span className="text-black dark:text-white text-sm font-bold">×</span>
+                      <Icon  icon={cert.providerIcon} className="text-amber-500" width={cert.providerIconSize} height={cert.providerIconSize} />
+                      <span className="text-black dark:text-white text-sm font-bold"></span>
                       <Icon icon={cert.platformIcon} className="" width={cert.platformIconSize} height={cert.platformIconSize} />
                     </div>
                     <div className="flex items-center justify-start gap-0">
@@ -431,7 +304,7 @@ export default function CertificationsSection() {
                   <Icon icon="solar:star-outline" className="text-white" width={18} height={18} />
                 </div>
                 <span className="text-blue-700 dark:text-blue-300 text-sm md:text-base font-semibold">
-                  13 Professional Certifications
+                  3+ Professional Certifications
                 </span>
               </div>
               <div className="w-px h-6 bg-gradient-to-b from-blue-300/50 via-purple-300/50 to-blue-300/50"></div>

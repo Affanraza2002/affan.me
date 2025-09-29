@@ -8,10 +8,11 @@ export default function TypewriterRole() {
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const roles = [
     "Full Stack Developer",
     "Software Engineer",
-    "Systems Designer",
+    "Frontend Developer",
     "AI Enthusiast"
   ];
 

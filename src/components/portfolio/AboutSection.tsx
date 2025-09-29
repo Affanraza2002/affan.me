@@ -15,11 +15,11 @@ export default function AboutSection() {
       <h2 className="text-2xl font-bold mb-6">About</h2>
       <div className="max-w-none">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Hello, World! I am Muhammad Ramazan — a passionate Full Stack Developer & UI/UX enthusiast
+          Hello, World! I am Affanraza Sk — a passionate Full Stack Developer & AI enthusiast
           dedicated to creating high-performance, user-centric software solutions with intuitive and engaging designs.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          With 5+ years of experience, I specialize in building scalable web and mobile applications using
+          With 1 years of experience, I specialize in building scalable web and mobile applications using
           React, Next.js, TypeScript, and modern development technologies. I thrive on turning complex problems
           into elegant solutions that users love.
         </p>

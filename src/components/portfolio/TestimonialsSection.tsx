@@ -29,41 +29,41 @@ interface FeaturedTestimonialProps {
 
 const testimonials = [
   {
-    content: "Ramzan is great! He is very skillful and fast learner, just what you need in a developer.",
-    author: "Mohammed Swellam",
-    role: "CEO",
-    company: "Geeky Air",
+    content: "As a Full Stack Developer Intern at Skill Academy, Affan showcased strong technical skills, creativity, and a problem-solving mindset that added real value to projects",
+    author: "Suman Raj Gupta",
+    role: "Senior Developer 2 ",
+    company: "Testbook",
     rating: 5,
     project: "Events based Web App",
-    avatar: "MS",
+    avatar: "SG",
     featured: true
   },
   {
-    content: "Ramzan produced some really amazing work on the backend. He demonstrated his proficiency and efficiency by using Node.js and Javascript to successfully import a very large dataset into a MySQL database.",
-    author: "Arnel Bisnar",
+    content: "Affan is an exceptional full stack developer! He delivered a complex project for us using React, Node.js, and MongoDB with remarkable efficiency. His ability to solve problems quickly and write clean, scalable code truly impressed our team. He is reliable, proactive, and always ensures the work is of the highest standard.",
+    author: "Emily Carter",
     role: "Product Manager",
-    company: "Solid Lift Parts Inc",
+    company: "Freelancer Client",
     rating: 5,
-    project: "Backend Development",
-    avatar: "AB"
+    project: "End to End Development",
+    avatar: "EC"
   },
   {
-    content: "It's been great to work with him! Fast, active and hardworking! Ramzan architected checkersvip.com from ground up with great attention to detail and great design. He is a great team player and a great developer.",
-    author: "Gilberto Cisneros",
-    role: "CEO",
-    company: "Checkersvip.com",
+    content: "Affan made a strong impact during his internship as a Frontend Developer. He quickly adapted to our tech stack and contributed to building responsive, user-friendly interfaces using React.js, HTML, CSS, and JavaScript. His eagerness to learn, problem-solving mindset, and ability to deliver tasks on time made him a valuable part of our team. ",
+    author: "Deven Rathod",
+    role: "Founder ",
+    company: "DeveloperSpot",
     rating: 5,
-    project: "JavaScript Applications",
-    avatar: "MR"
+    project: "Frontend Application Development",
+    avatar: "DR"
   },
   {
-    content: "We had a fantastic experience working with him on a recent project. He consistently delivered high-quality work, showed exceptional attention to detail, and communicated effectively throughout the process.",
-    author: "Jacek Jllaskowski",
-    role: "Project Manger ",
-    company: "Golem",
+    content: "It was a pleasure working with Affan. He developed our e-commerce platform end-to-end, integrating secure payments, user dashboards, and API services seamlessly. His attention to detail, excellent communication, and commitment to deadlines made the entire process smooth and stress-free. Highly recommended!",
+    author: "Michael Brown",
+    role: "Founder",
+    company: "Startup Client",
     rating: 5,
-    project: "Full Stack Development",
-    avatar: "ED"
+    project: "E-Commerce Platform",
+    avatar: "MB"
   },
 
 ];
