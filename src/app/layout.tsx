@@ -1,6 +1,7 @@
 import { PostHogProvider } from "@/components/PostHogProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
@@ -25,15 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head><script async src={`https://www.googletagmanager.com/gtag/js?id=G-S1BQDER84V`}></script>
-<script dangerouslySetInnerHTML={{
-  __html: `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-S1BQDER84V');
-  `,
-}} /></head>
+      
       <body className={inter.className}>
         <PostHogProvider>
           <ThemeProvider>
