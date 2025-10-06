@@ -28,6 +28,19 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       
       <body className={inter.className}>
+          <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-S1BQDER84V"
+        ></Script>
+
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-S1BQDER84V');
+          `}
+        </Script>
         <PostHogProvider>
           <ThemeProvider>
             {/* <AnimatedBackground /> */}
