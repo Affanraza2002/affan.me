@@ -37,6 +37,44 @@ const projects = [
     timeline: "1 month",
     clientType: "Personal Project"
   },
+  {
+  title: "Prepify AI",
+  subtitle: "AI-Powered Interview Preparation Platform",
+  description: "An intelligent platform that helps candidates master interviews through personalized AI-driven practice sessions, mock interviews ques, real-time feedback, and performance tracking.",
+  features: [
+    "Role-specific mock interviews with AI-generated questions",
+    "Automated feedback and performance scoring",
+    "AI-driven practice sessions with real-time feedback",
+    "Customizable question sets and templates",
+    "Resume-based question personalization",
+    "Company-specific question packs",
+  ],
+  deliverables: [
+    "Fully functional AI-powered interview prep web app",
+    "Interactive dashboard for users to track improvement",
+    "Secure user authentication and data management",
+    "Responsive design optimized for all devices",
+    "MVP-ready deployment with growth-focused architecture",
+
+  ],
+  tech: [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "Gemini AI",
+    "JWT Authentication",
+    "Tailwind CSS"
+  ],
+  github: "https://github.com", // replace with actual repo link
+  live: "https://ai-prepify.vercel.app/", // replace with actual deployment link
+  gradient: "from-teal-500 to-cyan-400",
+  status: "Deployed(under production)",
+  category: "AI SaaS / EdTech",
+  highlight: "Upcoming",
+  timeline: "2 months",
+  clientType: "SAAS "
+},
   
 ];
 
