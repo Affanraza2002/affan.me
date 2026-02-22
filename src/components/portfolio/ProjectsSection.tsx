@@ -38,6 +38,37 @@ const projects = [
     clientType: "Personal Project"
   },
   {
+    title: "ResumPro.ai",
+    subtitle: "AI-Powered Resume Builder",
+    description: "An intelligent web application that enables users to create professional, ATS-friendly resumes in minutes using AI-driven content generation. Offers customizable templates, live previews, and seamless sharing options.",
+    features: [
+      "Secure user authentication with JWT-based Sign In / Sign Up",
+      "Create new resumes from scratch with AI-powered suggestions",
+      "Live preview and shareable resume links for instant access",
+      "Upload profile photos with automatic background removal",
+      "Multiple professional resume templates with easy customization",
+      "Manage multiple resumes with add, edit, and delete functionality",
+      "AI-assisted resume optimization to improve ATS compliance and clarity"
+    ],
+    deliverables: [
+      "Production-ready, fully functional AI resume builder",
+      "Central platform for creating, editing, and sharing resumes",
+      "Real-time resume previews and live links for professional sharing",
+      "AI-driven content optimization for improved formatting, tone, and role-specific tailoring",
+      "Easy environment configuration for frontend and backend deployment",
+      "Integrated analytics for usage tracking and improvements"
+    ],
+    tech: ["Next.js", "React.js", "Tailwind CSS","Node.js","Express.js","MongoDB", "Context API/Redux","JWT Authentication", "Gemini AI API",  "Vercel"],
+    github: "https://github.com/Affanraza2002/ResumPro.ai-frontend",
+    live: "https://resumpro-ai-frontend.vercel.app/",
+    gradient: "from-green-500 to-lime-300",
+    status: "Done",
+    category: "Full Stack Development",
+    highlight: "Featured",
+    timeline: "1 month",
+    clientType: "Personal Project"
+  },
+  {
   title: "Prepify AI",
   subtitle: "AI-Powered Interview Preparation Platform",
   description: "An intelligent platform that helps candidates master interviews through personalized AI-driven practice sessions, mock interviews ques, real-time feedback, and performance tracking.",
@@ -66,14 +97,14 @@ const projects = [
     "JWT Authentication",
     "Tailwind CSS"
   ],
-  github: "https://github.com", // replace with actual repo link
+  github: "https://github.com/Affanraza2002/Prepify_AI-frontend", // replace with actual repo link
   live: "https://ai-prepify.vercel.app/", // replace with actual deployment link
   gradient: "from-teal-500 to-cyan-400",
-  status: "Deployed(under production)",
+  status: "Deployed",
   category: "AI SaaS / EdTech",
   highlight: "Upcoming",
   timeline: "2 months",
-  clientType: "SAAS "
+  clientType: "SAAS (Self Hosted)"
 },
   
 ];
