@@ -120,7 +120,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.4 }}
-          className="inline-flex items-center gap-2 px-4 py-2 bg-green-50/80 dark:bg-green-900/20 border border-green-200/50 dark:border-green-800/50 rounded-full backdrop-blur-sm"
+          className="inline-flex items-center gap-2 mt-2 px-4 py-2 bg-green-50/80 dark:bg-green-900/20 border border-green-200/50 dark:border-green-800/50 rounded-full backdrop-blur-sm"
         >
           <motion.div
             className="w-2 h-2 bg-green-500 rounded-full"
@@ -140,7 +140,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.6, duration: 0.6 }}
-        className="hidden md:flex absolute bottom-20 left-0 right-0 justify-center pb-8 z-10"
+        className="hidden md:flex absolute bottom-20 left-0 right-0 justify-center pb-4 z-10"
       >
         <motion.button
           onClick={() => {
@@ -152,7 +152,7 @@ export default function HeroSection() {
               });
             }
           }}
-          className="flex flex-col items-center gap-2 text-gray-500 dark:text-gray-400 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 transition-colors duration-300"
+          className="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 transition-colors duration-300"
           animate={{ y: [0, -8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           whileHover={{ scale: 1.05 }}

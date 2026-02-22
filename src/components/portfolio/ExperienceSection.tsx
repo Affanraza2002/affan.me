@@ -6,12 +6,48 @@ import SectionHeader from "./SectionHeader";
 
 const experience = [
   {
+    role: "Full Stack Developer (Frontend Lead)",
+    company: "NEUVIOR Pharmaceutical ltd.",
+    period: "Nov 2025- Present",
+    type: "Full Time ",
+    companyIcon: "mdi:pill-multiple",
+    companyColor: "from-amber-500 to-amber-600",
+    companyNameColor: "text-amber-600 dark:text-amber-400",
+
+    description: "Leading frontend architecture to build scalable, high-performance web applications in the pharmaceutical domain, while collaborating cross-functionally to ensure seamless integrations and exceptional user experience.",
+    achievements: [
+      "Leading frontend development for a high-performance, scalable pharmaceutical web application.",
+      "Designing pixel-perfect, responsive UI with strong focus on performance and user experience.",
+      "Implementing secure JWT authentication and seamless REST API integrations.",
+      "Establishing clean code standards and frontend best practices to ensure long-term scalability."
+    ],
+    technologies: ["JavaScript", "React", "Next.js", "Tailwind CSS", "Docker", "Axios", "MSW", "JWT", "Figma", "Git", "REST APIs"]
+  },
+  {
+    role: "Full Stack Web Developer Intern",
+    company: "Leaplabs, Skill Academy (Testbook)",
+    period: "Jan 2024- July 2024",
+    type: "Full-time",
+    companyColor: "from-green-500 to-green-600",
+    companyNameColor: "text-green-600 dark:text-green-400",
+    companyIcon: "mdi:code",
+    description: "Contributed to the development of full stack applications by building robust backends, interactive frontends, and secure integrations. Focused on performance, scalability, and delivering real-world solutions for educational platforms.",
+    achievements: [
+      "Successfully implemented end-to-end features across frontend and backend modules",
+      "Consistently praised for problem-solving, adaptability, and collaborative teamwork",
+      "Earned recognition for writing efficient, maintainable, and production-ready code",
+      "Ensured active monitoring for integration issues"
+    ],
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript", "MySQL", "REST APIs",]
+  },
+  {
     role: "Frontend Developer Intern",
     company: "DeveloperSpot",
     period: "Aug 2023-Nov 2023",
     type: "Freelance ",
     companyIcon: "mdi:code-braces",
     companyColor: "from-blue-500 to-blue-600",
+    companyNameColor: "text-blue-600 dark:text-blue-400",
     description: "Delivered responsive and scalable web solutions across diverse domains, focusing on modern UI/UX, performance optimization, and seamless integrations with backend services.",
     achievements: [
       "Completed 10+ frontend projects emphasizing responsive and user-friendly layouts",
@@ -21,22 +57,6 @@ const experience = [
     ],
     technologies: ["JavaScript", "React", "Next.js", "Tailwind CSS", "Figma", "Git", "REST APIs"]
   },
-  {
-    role: "Full Stack Web Developer Intern",
-    company: "Leaplabs, Skill Academy (Testbook)",
-    period: "Jan 2024- July 2024",
-    type: "Full-time",
-    companyColor: "from-green-500 to-green-600",
-    companyIcon: "mdi:code",
-    description: "Contributed to the development of full stack applications by building robust backends, interactive frontends, and secure integrations. Focused on performance, scalability, and delivering real-world solutions for educational platforms.",
-    achievements: [
-      "Successfully implemented end-to-end features across frontend and backend modules",
-      "Consistently praised for problem-solving, adaptability, and collaborative teamwork",
-      "Earned recognition for writing efficient, maintainable, and production-ready code",
-      "Ensured active monitoring for integration issues"
-    ],
-    technologies: ["MongoDB","Express.js","React.js","Node.js","JavaScript", "MySQL","REST APIs",]
-  }
 ];
 
 export default function ExperienceSection() {
@@ -162,7 +182,7 @@ export default function ExperienceSection() {
                       initial={{ opacity: 0, x: -30 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.4 }}
-                      className="text-lg md:text-xl text-blue-600 dark:text-blue-400 font-semibold"
+                      className={`text-lg md:text-xl  ${exp.companyNameColor}  font-semibold`}
                     >
                       {exp.company}
                     </motion.p>
